@@ -9,3 +9,12 @@
 [如何理解fine-grained和coarse-grained？](https://www.zhihu.com/question/299171510)  
 [如何理解visual invariance(不变性)](https://zhuanlan.zhihu.com/p/21464947)  
 >在视觉领域，一个古老/经典的问题是各种不变性：当你看到一个人的脸时，不论ta的脸在你视野中的什么位置（位置不变性），ta朝向什么角度（角度不变性），离你有多远（大小/距离不变性），等等，在这些不同情况下，你的眼睛所看到的图像都是极为不同的，但你都可以轻松地认出ta是谁。这是如何做到的呢？  
+
+[action proposal(dection)](https://blog.csdn.net/sinat_35177634/article/details/88918421)
+>其主要目的是将长视频根据语义分割成多个segment，因为现在的针对视频的任务对长视频处理并不理想，比如视频的action detection和caption等。因此需要现将长视频分割成多个短视频，再进行处理。temporal action proposals是根据长视频的动作语义信息在时间维度来对长视频进行分割，保证每个segment包含一个action。本文将介绍两种方法，一种是2016年在ECCV上提出的DAPs，另一个是2017年CVPR的SST，SST也是DAPs的改进版，也是我们重点讨论的
+
+# TAL的一步法和两步法
+**一步法**：One-stage approaches classify and locate action instances from an input video in a single shot.  
+*就是说从帧入手，直接生成动作实例的分类与位置*
+**两步法**： Two-stage approaches first generate category-agnostic action proposals and then per- form action classification and temporal boundary refinement  for each proposal. 
+*先产生proposal，在进行分类与细化的定位*
