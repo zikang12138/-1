@@ -19,3 +19,4 @@
 **G-Net**:对global context 建模 通过整合video-level representation and features of each proposal 为了有效地集成视频级信息和提议级特征，我们提出了全局上下文自适应。它将视频级表征加到每个proposal中的local context，以便全局上下文分别适应它们
 **P-Net**：P-Net 建模上下文感知的建议间关系。这包括由local context增强的提案级别特征之间的交互，以及适应不同提案的global context之间的交互。我们使用现有模型作为 P-Net 并研究两个候选模型：P-GCN [44] 和非本地网络 [40]。
 **总结**：我们引入了一种新的网络架构，称为 ContextLoc，由三个子网络组成，即 L-Net、G-Net 和 P-Net。 L-Net 是同类中第一个使用提议来查询其中的片段并检索本地上下文以用细粒度的时间信息对其进行补充的。 G-Net 通过集成视频级表示来增强每个提案的特征。 我们引入了一种新的上下文适应过程来使全局上下文适应不同的提议。 虽然 P-Net 建立在现有网络上，但我们表明，无论其实例如何，P-Net 都是对我们的 L-Net 和 G-Net 的补充。 我们的 ContextLoc 统一了这三个子网络的各自优势
+[论文解读](https://blog.csdn.net/Biany0h0/article/details/119534471)

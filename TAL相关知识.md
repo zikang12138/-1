@@ -18,3 +18,5 @@
 *就是说从帧入手，直接生成动作实例的分类与位置*
 **两步法**： Two-stage approaches first generate category-agnostic action proposals and then per- form action classification and temporal boundary refinement  for each proposal. 
 *先产生proposal，在进行分类与细化的定位*
+[非极大值抑制（non-maximum suppression）的理解](https://blog.csdn.net/xiexu911/article/details/80609298)
+[optical flow 光流](https://en.wikipedia.org/wiki/Optical_flow)
