@@ -21,4 +21,5 @@
 [非极大值抑制（non-maximum suppression）的理解](https://blog.csdn.net/xiexu911/article/details/80609298)
 [optical flow 光流](https://en.wikipedia.org/wiki/Optical_flow)
 
-
+[Video Analysis 相关领域解读之Temporal Action Detection(时序行为检测)](https://zhuanlan.zhihu.com/p/26603387)
+[[ECCV 2018] 用于时序动作提名生成的边界敏感网络BSN](https://zhuanlan.zhihu.com/p/39327364)
