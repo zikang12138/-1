@@ -24,3 +24,9 @@
 
 [Video Analysis 相关领域解读之Temporal Action Detection(时序行为检测)](https://zhuanlan.zhihu.com/p/26603387)
 [[ECCV 2018] 用于时序动作提名生成的边界敏感网络BSN](https://zhuanlan.zhihu.com/p/39327364)
+
+
+提出TAL在弱监督：*Tempo- ral localization of fine-grained actions in videos by domain transfer from web images.*   
+使用软选择模块（类似于注意力机制）*Untrimmednets for weakly supervised action recognition and detection.*  
+提出a sparse loss function to facilitate the selection of segments：*Weakly supervised action localization by sparse temporal pooling network*
+autoloc提出OIC
