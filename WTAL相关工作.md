@@ -17,3 +17,18 @@ EM- MIL|proposes an expectation-maximization multiple instance learning framewor
 ACM-Net|three-branch (background context instance)|ACM-Net: Action Context Modeling Network for Weakly-Supervised Temporal Action Localization|2021  
 CoLA|本文认为大多数方法忽略了context，并且出现了snip cheating问题：hard snippet 太模糊难以分类。本文通过比较学习 并且引入了SniCo|CoLA: Weakly-Supervised Temporal Action Localization with Snippet Contrastive Learning|2021  
 
+# CAS的生成方式
+|Method|Operations|
+:-:|:-:|  
+UntrimmedNets (Wang et al. 2017)|FC
+STPN (Nguyen et al. 2018)|FC+ReLU+FC
+3C-Net (Narayan et al. 2019)|[FC+ReLU]×2+FC  
+BaS-Net (Lee et al. 2020)|[Conv+ReLU]×2+Conv 
+A2CL-PT (Min and Corso 2020)|FC+ReLU+Conv
+ACL (Gong et al. 2020b)|Conv+ReLU+FC
+EM-MIL (Luo et al. 2020)|Conv+ReLU+FC
+SF-Net (Ma et al. 2020)|[FC+ReLU]×2+FC
+ACM-Net(Sanqing Qu et al)|[Conv1d+Softmax]×2+FC
+
+# aggregation operations
+![aggregation operations](image\aggregation.png)  
