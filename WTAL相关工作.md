@@ -5,7 +5,11 @@ UntrimmedNet|first to present weakly-supervised temporal action localization, wh
 STPN|designs attention weights modules|Weakly Supervised Action Localization by Sparse Temporal Pooling Network*Phuc Nguyen et al*|2018    
 AutoLoc|proposal Outer-Inner-Contrastive(OIC) |AutoLoc: Weakly-supervised Temporal Action Localization in Untrimmed Videos|2018
 CMCS|using Context Modeling|Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization *Daochang Liu et al*|2019  
-BM|using Background Modeling|Weakly-supervised Action Localization with Background Modeling *Phuc Xuan Nguyen et al*|2019  
+BM|using Background Modeling|Weakly-supervised Action Localization with Background Modeling *Phuc Xuan Nguyen et al*|2019   
+|MAAN|proposed a novel marginalized average aggregation module and latent discriminative probabilities to reduce the difference between the most salient regions and the others|Marginalized  Average  Attentional  Network  forWeakly-Supervised Learning*Yuan et al*|2019
+|TSM|each action instance as a multi-phase process to effectivately characterize action instances|Temporal structure mining for weakly supervised action dection|2019  
+|Clean-Net|introduced  an  action  proposal  eval-uator  that  provides  pseudo-supervision  by  leveraging  thetemporal contrast in snippets||2019
+|WSGN|assigns a weight to each frame prediction based onboth  local  and  global  statistics|Weakly  su-pervised  Gaussian  networks  for  action  detection.|2020
 BaSNet|designs a background suppression network to suppress background activation|Background suppression network for weakly-supervised temporal action localization|2020  
 UM|top-k|UntrimmedNets for Weakly Supervised Action Recognition and Detection|2020  
 TSCN|introduces a two-stream consensus network, which employs an iterative refinement training strategy to obtain a precise prediction.|Two-stream consensus network for weakly-supervised temporal action localization|2020  
