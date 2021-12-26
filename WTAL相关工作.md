@@ -2,7 +2,7 @@
 简称|方法介绍|出处|年份
 :-:|:-:|:-:|:-:
 UntrimmedNet|first to present weakly-supervised temporal action localization, which cou- ples classification module and selection module to learn an action localization model|UntrimmedNets for Weakly Supervised Action Recognition and Detection *Wang et al* |2017 
-STPN|designs attention weights modules|Weakly Supervised Action Localization by Sparse Temporal Pooling Network*Phuc Nguyen et al*|2018    
+STPN|designs attention weights modules|Weakly Supervised Action Localization by Sparse Temporal Pooling Network *Phuc Nguyen et al*|2018    
 AutoLoc|proposal Outer-Inner-Contrastive(OIC) |AutoLoc: Weakly-supervised Temporal Action Localization in Untrimmed Videos|2018
 CMCS|using Context Modeling|Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization *Daochang Liu et al*|2019  
 BM|using Background Modeling|Weakly-supervised Action Localization with Background Modeling *Phuc Xuan Nguyen et al*|2019  
